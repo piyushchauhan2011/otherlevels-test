@@ -16,7 +16,9 @@ app.service('SwatchService', SwatchService);
 
 // ALl the Directives
 var SwatchRow = require('./directives/swatchRowDirective');
+var Swatch = require('./directives/swatchDirective');
 app.directive('swatchRow', SwatchRow);
+app.directive('swatch', Swatch);
 
 // All the Controllers
 var HelloCtrl = require('./routes');

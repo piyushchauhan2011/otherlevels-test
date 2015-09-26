@@ -1,7 +1,1 @@
-<h1>{{ swatch.name|uppercase }}</h1>
-
-<div layout="column" class="swatch-container">
-  <swatch-row name="shade.name" hex="shade.hex" ng-repeat="shade in swatch.shades"></swatch-row>
-  <div class="horizontal-space"></div>
-  <swatch-row name="accent.name" hex="accent.hex" ng-repeat="accent in swatch.accents"></swatch-row>
-</div>
+<swatch swatch="swatch"></swatch>
